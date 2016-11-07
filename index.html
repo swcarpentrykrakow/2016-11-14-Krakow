@@ -1,21 +1,21 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 root: .               # DON'T CHANGE THIS EITHER.  (THANK YOU.)
-carpentry: "FIXME"    # what kind of Carpentry (must be either "dc" or "swc")
-venue: "FIXME"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "FIXME"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
-country: "FIXME"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
-language: "FIXME"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
-latlng: "FIXME"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
-humandate: "FIXME"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "FIXME"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: FIXME      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: FIXME        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["FIXME"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-contact: ["fixme@example.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-etherpad:             # optional: URL for the workshop Etherpad if there is one
-eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+carpentry: "swc"    # what kind of Carpentry (must be either "dc" or "swc")
+venue: "ACC Cyfronet AGH"        # brief name of host site without address (e.g., "Euphoric State University")
+address: "ACC Cyfronet AGH Nawojki 11, Kraków, sala 303, III piętro"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+country: "pl"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
+language: "pl"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
+latlng: "50.069013, 19.909226"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
+humandate: "Nov 14-15, 2016"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "9:00 - 17:00"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+startdate: 2016-11-14      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2016-11-15        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["Piotr Banaszkiewicz, Maciej Czuchry, Krzysztof Mędrela, Klemens Noga, Leszek Tarkowski"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["TBA"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+contact: ["szkolenia@cyfronet.pl"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+etherpad: http://pad.software-carpentry.org/2016-11-14-Krakow # optional: URL for the workshop Etherpad if there is one
+eventbrite: 28758926724 # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
 <!-- See instructions in the comments below for how to edit specific sections of this workshop template. -->
@@ -52,7 +52,7 @@ Delete these lines and please fill in
 <a href="{{site.amy_site}}/submit">this self-organized workshop form</a>
 and the administrator will contact you if we need any extra information.</h4>
 
-<h2 id="general">General Information</h2>
+<h2 id="general">Informacje ogólne</h2>
 
 <!--
   INTRODUCTION
@@ -61,20 +61,24 @@ and the administrator will contact you if we need any extra information.</h4>
   the pitch.
 -->
 <p>
-  <a href="{{site.swc_site}}">Software Carpentry</a>'s mission
-  is to help scientists and engineers get more research done in less
-  time and with less pain by teaching them basic lab skills for
-  scientific computing.  This hands-on workshop will cover basic
-  concepts and tools, including program design, version control, data
-  management, and task automation.  Participants will be encouraged to
-  help one another and to apply what they have learned to their own
-  research problems.
+Znajomość podstaw programowania staje się przydatną umiejętnością w praktycznie każdej dziedzinie.
+  Warsztaty <a href="{{site.swc_site}}">Software Carpentry</a> pomagają stawiać pierwsze kroki w
+  nauce programowania - automatyzowania zadań. Pozwalają uzytkownikom komputerów rozwijać ich
+  umiejętności programistyczne, dzięki którym są oni bardziej produktywni w swojej codziennej pracy.
+  W czasie dwudniowych warsztatów uczestnicy zachęcani są, by pracować razem i stosować umiejętności
+  zdobyte podczas szkolenia do rozwiązywania własnych problemów. Warsztaty Software Carpentry
+  odbywają się na całym świecie od ponad 5 lat i cieszą się ogromną popularnością.
 </p>
+
+<p>
+  Warsztaty będą prowadzone w <strong>języku polskim</strong>. Jednakże wszystkie materiały Software
+  Carpentry są w języku angielskim.
+</p>
+
 <p align="center">
   <em>
-    For more information on what we teach and why,
-    please see our paper
-    "<a href="http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745">Best Practices for Scientific Computing</a>".
+  Po więcej informacji o tym czego i jak uczymy zajrzyj do naszej
+  pracy "<a href="http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745">Best Practices for Scientific Computing</a>".
   </em>
 </p>
 
@@ -84,11 +88,13 @@ and the administrator will contact you if we need any extra information.</h4>
   Explain who your audience is.  (In particular, tell readers if the
   workshop is only open to people from a particular institution.
 -->
-<p id="who">
-  <strong>Who:</strong>
-  The course is aimed at graduate students and other researchers.
-  <strong>You don't need to have any previous knowledge of the tools that will
-    be presented at the workshop.</strong>
+  <strong>Dla kogo:</strong>
+  Warsztaty są skierowane dla osób używających na co dzień komputerów, chcących nauczyć się bardziej
+  efektywnego ich używania. Warsztaty Software Carpentry nastawione są na ćwiczenia praktyczne,
+  podczas których uczestnicy uczą się jak pracować z linią komend (środowisko Unix), kontrolą wersji
+  (Git i GitHub) oraz poznają podstawy dobrych praktyk programistycznych z użyciem języka Python.
+  <strong>Wcześniejsza znajomość narzędzi używanych w trakcie
+szkolenia nie jest wymagana.</strong>
 </p>
 
 <!--
@@ -101,12 +107,15 @@ and the administrator will contact you if we need any extra information.</h4>
 -->
 {% if page.latlng %}
 <p id="where">
-  <strong>Where:</strong>
+  <strong>Gdzie</strong>
   {{page.address}}.
-  Get directions with
-  <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
-  or
-  <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
+  Sprawdź dojazd za pomocą
+  <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>,
+  <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>
+  lub
+  <a
+  href="http://jakdojade.pl?tn=ACK+Cyfronet+AGH&td=&tc=50.06893:19.90946&cid=5000"
+  target="_blank">jakdojade.pl</a>.
 </p>
 {% endif %}
 
@@ -116,12 +125,10 @@ and the administrator will contact you if we need any extra information.</h4>
   Modify the block below if there are any special requirements.
 -->
 <p id="requirements">
-  <strong>Requirements:</strong> Participants must bring a laptop with a
-  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges
-  on. They should have a few specific software packages installed (listed
-  <a href="#setup">below</a>). They are also required to abide by
-  Software Carpentry's
-  <a href="{{site.swc_site}}/conduct.html">Code of Conduct</a>.
+  <strong>Wymagania:</strong> Uczestnicy proszeni są o przyniesienie na warsztaty <strong>własnych laptopów</strong>.
+  Konieczne będzie skonfigurowanie ich przed warsztatami, zgodnie z podanymi poniżej <a href="#setup">instrukcjami</a>.
+  Na warsztatach każdy jest zobowiązany przestrzegać <a href="{{site.swc_site}}/conduct.html">Code of Conduct</a>
+  od Software Carpentry. W skrócie: prosimy odnosić się do siebie kulturalnie, uprzejmie i z szacunkiem.
 </p>
 
 <!--
@@ -131,21 +138,15 @@ and the administrator will contact you if we need any extra information.</h4>
   special instructions.
 -->
 <p id="accessibility">
-  <strong>Accessibility:</strong> We are committed to making this workshop
-  accessible to everybody.
-  The workshop organisers have checked that:
+  <strong>Dosępność dla niepełnosprawnych:</strong> Czynimy wszystko by warsztaty były dostępne dla wszystkich.
+  Organizatorzy sprawdzili, że:
 </p>
 <ul>
-  <li>The room is wheelchair / scooter accessible.</li>
-  <li>Accessible restrooms are available.</li>
+  <li>Sala szkoleniowa jest dostępna dla osób na wózkach inwalidzkich.</li>
+  <li>Toalety dostosowane dla niepełnosprawnych znajdują się z bezpośrednim sąsiedztwie sali szkoleniowej. </li>
 </ul>
 <p>
-  Materials will be provided in advance of the workshop and
-  large-print handouts are available if needed by notifying the
-  organizers in advance.  If we can help making learning easier for
-  you (e.g. sign-language interpreters, lactation facilities) please
-  <a href="mailto:{{page.contact}}">get in touch</a> and we will
-  attempt to provide them.
+  Wszelkie niezbędne materały szkoleniowe zostaną dostarczone przed warsztatem w postaci dużych wydruków jeśli jest to niezbędne. W tym celu prosimy o kontakt z ogranizatorami. Jeżeli możemy w jakikolwiek sposób ułatwić uczenie, również prosimy o e-mail na konto <a href="mailto:{{page.contact}}">{{page.contact}}</a>.
 </p>
 
 <!--
@@ -154,12 +155,12 @@ and the administrator will contact you if we need any extra information.</h4>
   Display the contact email address set in the configuration file.
 -->
 <p id="contact">
-  <strong>Contact</strong>:
-  Please email
+  <strong>Kontakt</strong>:
+  Wszelkie pytania prosimy kierować na
   {% if page.contact %}
     {% for contact in page.contact: %}
       {% if forloop.last and page.contact.size > 1 %}
-        or
+        lub
       {% else %}
         {% unless forloop.first %}
         ,
@@ -170,7 +171,7 @@ and the administrator will contact you if we need any extra information.</h4>
   {% else %}
     to-be-announced
   {% endif %}
-  for more information.
+  .
 </p>
 
 <hr/>
@@ -182,35 +183,43 @@ and the administrator will contact you if we need any extra information.</h4>
   to match your plans.  You may also want to change 'Day 1' and 'Day
   2' to be actual dates or days of the week.
 -->
-<h2 id="schedule">Schedule</h2>
+<h2 id="schedule">Plan warsztatów</h2>
 
 <!-- DO NOT EDIT SURVEY LINKS -->
-<p><em>Surveys</em></p>
-<p>Please be sure to complete these surveys before and after the workshop.</p>
-<p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
+<p><em>Ankiety</em></p>
+<p>Prosimy o wypełnienie poniższych ankiet przed oraz po warsztatach:</p>
+<p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Ankieta wstępna, do wypełnienia przed warsztatem</a></p>
+<p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Ankieta ewaluacyjna warsztatów</a></p>
 
 <div class="row">
   <div class="col-md-6">
-    <h3>Day 1</h3>
+    <h3>Dzień 1 (poniedziałek)</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Automating tasks with the Unix shell</td> </tr>
-      <tr> <td>10:30</td> <td>Coffee</td> </tr>
-      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Building programs with Python</td> </tr>
-      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>09:00</td>  <td>Automatyzacja zadań z linią poleceń Unixa</td> </tr>
+      <tr> <td>10:30</td> <td>Przerwa</td> </tr>
+      <tr> <td>10:45</td> <td>Automatyzacja zadań z linią poleceń Unixa &ndash; ciąg dalszy</td> </tr>
+      <tr> <td>12:30</td>  <td>Przerwa na obiad</td> </tr>
+      <tr> <td>13:45</td>  <td>Programowanie z użyciem Pythona</td> </tr>
+      <tr> <td>14:30</td>  <td>Przerwa.</td> </tr>
+      <tr> <td>14:45</td>  <td>Programowanie z użyciem Python &ndash; ciąg dalszy.</td> </tr>
+      <tr> <td>15:45</td>  <td>Przerwa.</td> </tr>
+      <tr> <td>16:00</td>  <td>Programowanie z użyciem Python &ndash; ciąg dalszy.</td> </tr>
+      <tr> <td>16:45</td>  <td>Podsumowanie dnia i zakończenie.</td> </tr>
     </table>
   </div>
   <div class="col-md-6">
-    <h3>Day 2</h3>
+    <h3>Dzień 2 (wtorek)</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Version control with Git</td> </tr>
-      <tr> <td>10:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Managing data with SQL</td> </tr>
-      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>09:00</td>  <td>Kontrola wersji z użyciem Git</td> </tr>
+      <tr> <td>10:30</td>  <td>Przerwa</td> </tr>
+      <tr> <td>10:45</td>  <td>Kontrola wersji z użyciem Git &ndash; ciąg dalszy</td> </tr>
+      <tr> <td>12:30</td>  <td>Przerwa na obiad</td> </tr>
+      <tr> <td>13:45</td>  <td>Kontrola wersji z użyciem Git &ndash; ciąg dalszy</td> </tr>
+      <tr> <td>14:30</td>  <td>Przerwa.</td> </tr>
+      <tr> <td>15:00</td>  <td>Programowanie z użyciem Python &ndash; ciąg dalszy</td> </tr>
+      <tr> <td>15:45</td>  <td>Przerwa.</td> </tr>
+      <tr> <td>16:00</td>  <td>Programowanie z użyciem Python &ndash; ciąg dalszy</td> </tr>
+      <tr> <td>16:45</td>  <td>Podsumowanie dnia i zakończenie warsztatów</td> </tr>
     </table>
   </div>
 </div>
@@ -233,7 +242,7 @@ and the administrator will contact you if we need any extra information.</h4>
 <p id="etherpad">
   <strong>Etherpad:</strong> <a href="{{page.etherpad}}">{{page.etherpad}}</a>.
   <br/>
-  We will use this Etherpad for chatting, taking notes, and sharing URLs and bits of code.
+  W trakcie warsztatów będziemy używać tego Etherpada do pisania notatek, komunikacji oraz współdzielenia odnośników czy fragmentów kodu.
 </p>
 {% endif %}
 
@@ -667,7 +676,8 @@ and the administrator will contact you if we need any extra information.</h4>
 -->
 </div> <!-- End of 'Python' section. -->
 
-<div id="r"> <!-- Start of 'R' section. -->
+<!--
+<div id="r"> <!-- Start of 'R' section.
   <h3>R</h3>
 
   <p>
@@ -718,7 +728,8 @@ and the administrator will contact you if we need any extra information.</h4>
   </div>
 </div> <!-- End of 'R' section. -->
 
-<div id="sql"> <!-- Start of 'SQLite' section. -->
+<!--
+<div id="sql"> <!-- Start of 'SQLite' section.
   <h3>SQLite</h3>
 
   <p>
@@ -754,6 +765,7 @@ and the administrator will contact you if we need any extra information.</h4>
     <a href="https://github.com/ContinuumIO/anaconda-issues/issues/307">without support to <code>readline</code></a>.
     Instructors will provide a workaround for it if needed.</strong></p>
 </div> <!-- End of 'SQLite' section. -->
+-->
 
 <!--
   Uncomment this section if you are using our virtual machine.

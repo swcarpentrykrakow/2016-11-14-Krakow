@@ -11,8 +11,8 @@ humandate: "Nov 14-15, 2016"    # human-readable dates for the workshop (e.g., "
 humantime: "9:00 - 17:00"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2016-11-14      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2016-11-15        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Piotr Banaszkiewicz, Maciej Czuchry, Krzysztof Mędrela, Klemens Noga, Leszek Tarkowski"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["TBA"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+instructor: ["Piotr Banaszkiewicz, Krzysztof Mędrela, Klemens Noga, Leszek Tarkowski"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["Maciej Czuchry"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 contact: ["szkolenia@cyfronet.pl"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 etherpad: http://pad.software-carpentry.org/2016-11-14-Krakow # optional: URL for the workshop Etherpad if there is one
 eventbrite: 28758926724 # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -179,14 +179,16 @@ szkolenia nie jest wymagana.</strong>
 <div class="row">
   <div class="col-md-12">
     <p>
-      Ten warsztat jest zorganizowany przez Akademickie Centrum Komputerowe Cyfronet AGH:
+      Ten warsztat jest zorganizowany przez <a href="http://www.cyfronet.krakow.pl"/> Akademickie Centrum Komputerowe Cyfronet AGH</a>:
     </p>
   </div>
   <!--<div class="col-md-3">-->
     <!--<img style="max-height: 50px;" src="https://www.elixir-europe.org/system/files/styles/medium/private/250-elixir_uk_node_logo.png?itok=KIeak5bi" alt="ELIXIR-UK"/>-->
   <!--</div>-->
   <div class="col-md-2 col-md-offset-5">
+  <a href="http://www.cyfronet.krakow.pl"/>
     <img style="max-height: 60px;" src="http://www.cyfronet.krakow.pl/_img/cyfronet_logo_monochr.jpg" alt="ACK Cyfronet AGH"/>
+  </a>
   </div>
 </div>
 
@@ -214,22 +216,22 @@ szkolenia nie jest wymagana.</strong>
       <tr> <td>10:30</td> <td>Przerwa</td> </tr>
       <tr> <td>10:45</td> <td>Automatyzacja zadań z linią poleceń Unixa &ndash; ciąg dalszy</td> </tr>
       <tr> <td>12:30</td>  <td>Przerwa na obiad</td> </tr>
-      <tr> <td>13:45</td>  <td>Programowanie z użyciem Pythona</td> </tr>
+      <tr> <td>13:45</td>  <td>Kontrola wersji z użyciem Git</td> </tr>
       <tr> <td>14:30</td>  <td>Przerwa.</td> </tr>
-      <tr> <td>14:45</td>  <td>Programowanie z użyciem Python &ndash; ciąg dalszy.</td> </tr>
+      <tr> <td>14:45</td>  <td>Kontrola wersji z użyciem Git &ndash; ciąg dalszy.</td> </tr>
       <tr> <td>15:45</td>  <td>Przerwa.</td> </tr>
-      <tr> <td>16:00</td>  <td>Programowanie z użyciem Python &ndash; ciąg dalszy.</td> </tr>
+      <tr> <td>16:00</td>  <td>Kontrola wersji z użyciem Git &ndash; ciąg dalszy.</td> </tr>
       <tr> <td>16:45</td>  <td>Podsumowanie dnia i zakończenie.</td> </tr>
     </table>
   </div>
   <div class="col-md-6">
     <h3>Dzień 2 (wtorek)</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Kontrola wersji z użyciem Git</td> </tr>
+      <tr> <td>09:00</td>  <td>Podstawy Pythona</td> </tr>
       <tr> <td>10:30</td>  <td>Przerwa</td> </tr>
-      <tr> <td>10:45</td>  <td>Kontrola wersji z użyciem Git &ndash; ciąg dalszy</td> </tr>
+      <tr> <td>10:45</td>  <td>Podstawy Pythona &ndash; ciąg dalszy</td> </tr>
       <tr> <td>12:30</td>  <td>Przerwa na obiad</td> </tr>
-      <tr> <td>13:45</td>  <td>Kontrola wersji z użyciem Git &ndash; ciąg dalszy</td> </tr>
+      <tr> <td>13:45</td>  <td>Programowanie z użyciem Python</td> </tr>
       <tr> <td>14:30</td>  <td>Przerwa.</td> </tr>
       <tr> <td>15:00</td>  <td>Programowanie z użyciem Python &ndash; ciąg dalszy</td> </tr>
       <tr> <td>15:45</td>  <td>Przerwa.</td> </tr>
@@ -283,7 +285,7 @@ szkolenia nie jest wymagana.</strong>
 <h2 id="syllabus">Syllabus</h2>
 
 <div class="row">
-  <div class="col-md-6">
+  <div class="col-md-4">
     <h3 id="syllabus-shell">The Unix Shell</h3>
     <ul>
       <li>Files and directories</li>
@@ -295,49 +297,8 @@ szkolenia nie jest wymagana.</strong>
       <li><a href="{{site.swc_pages}}/shell-novice/reference/">Reference...</a></li>
     </ul>
   </div>
-  <div class="col-md-6">
-    <h3 id="syllabus-python">Programming in Python</h3>
-    <ul>
-      <li>Using libraries</li>
-      <li>Working with arrays</li>
-      <li>Reading and plotting data</li>
-      <li>Creating and using functions</li>
-      <li>Loops and conditionals</li>
-      <li>Defensive programming</li>
-      <li>Using Python from the command line</li>
-      <li><a href="{{site.swc_pages}}/python-novice-inflammation/reference/">Reference...</a></li>
-    </ul>
-  </div>
-  <!--
-  <div class="col-md-6">
-    <h3 id="syllabus-r">Programming in R</h3>
-    <ul>
-      <li>Working with vectors and data frames</li>
-      <li>Reading and plotting data</li>
-      <li>Creating and using functions</li>
-      <li>Loops and conditionals</li>
-      <li>Using R from the command line</li>
-      <li><a href="{{site.swc_pages}}/r-novice-inflammation/reference/">Reference...</a></li>
-    </ul>
-  </div>
-  -->
-  <!--
-  <div class="col-md-6">
-    <h3 id="syllabus-matlab">Programming in MATLAB</h3>
-    <ul>
-      <li>Working with arrays</li>
-      <li>Reading and plotting data</li>
-      <li>Creating and using functions</li>
-      <li>Loops and conditionals</li>
-      <li>Defensive programming</li>
-      <li><a href="{{site.swc_pages}}/matlab-novice-inflammation/reference/">Reference...</a></li>
-     </ul>
-   </div>
-   -->
-</div>
 
-<div class="row">
-  <div class="col-md-6">
+  <div class="col-md-4">
     <h3 id="syllabus-git">Version Control with Git</h3>
     <ul>
       <li>Creating a repository</li>
@@ -351,21 +312,21 @@ szkolenia nie jest wymagana.</strong>
       <li><a href="{{site.swc_pages}}/git-novice/reference/">Reference...</a></li>
     </ul>
   </div>
-  <div class="col-md-6">
-    <h3 id="syllabus-sql">Managing Data with SQL</h3>
+
+  <div class="col-md-4">
+    <h3 id="syllabus-python">Programming in Python</h3>
     <ul>
-      <li>Reading and sorting data</li>
-      <li>Filtering with <code>where</code></li>
-      <li>Calculating new values on the fly</li>
-      <li>Handling missing values</li>
-      <li>Combining values using aggregation</li>
-      <li>Combining information from multiple tables using <code>join</code></li>
-      <li>Creating, modifying, and deleting data</li>
-      <li>Programming with databases</li>
-      <li><a href="{{site.swc_pages}}/sql-novice-survey/reference/">Reference...</a></li>
+      <li>Using libraries</li>
+      <li>Working with arrays</li>
+      <li>Reading and plotting data</li>
+      <li>Creating and using functions</li>
+      <li>Loops and conditionals</li>
+      <li>Defensive programming</li>
+      <li>Using Python from the command line</li>
+      <li><a href="{{site.swc_pages}}/python-novice-inflammation/reference/">Reference...</a></li>
     </ul>
   </div>
-</div>
+ </div>
 
 <hr/>
 
